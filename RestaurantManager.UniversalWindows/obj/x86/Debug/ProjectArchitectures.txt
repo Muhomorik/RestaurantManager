@@ -1,0 +1,1 @@
+C:\Users\Dmitri\Desktop\Documents\Visual Studio 2015\Projects\edX\DEV206.1x\RestaurantManager\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
