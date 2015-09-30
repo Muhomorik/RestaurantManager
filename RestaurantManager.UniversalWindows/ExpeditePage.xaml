@@ -13,10 +13,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="**Clear All Orders**"
-                   Grid.Row="1"
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"
-                   FontSize="22"/>
+        <Grid Grid.Row="0" HorizontalAlignment="Left" Height="691" VerticalAlignment="Top" Width="1024" Background="#FF972626">
+       </Grid>
+        <Button x:Name="buttonClearAllOrders" Content="**Clear All Orders**" HorizontalAlignment="Center" Margin="0" Grid.Row="1" VerticalAlignment="Center" Click="buttonClearAllOrders_Click_1"/>
+
+        <AppBar Grid.Row="0">
+            <AppBarButton x:Name="appBarHomeButton" HorizontalAlignment="Left" Icon="Home" Label="Home" Margin="0" VerticalAlignment="Top" Click="appBarHomeButton_Click"/>
+        </AppBar>
     </Grid>
 </Page>
