@@ -22,15 +22,13 @@
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Bottom" 
                    Grid.Row="0" 
-                   Grid.ColumnSpan="2" 
-                   FontSize="36"/>
+                   Grid.ColumnSpan="2"/>
         <TextBlock Text="Internal Test Version" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Bottom" 
                    Grid.Row="1" 
                    Grid.ColumnSpan="2"
-                   Grid.Column="0" 
-                   FontSize="36"/>
+                   Grid.Column="0"/>
         <Button x:Name="buttonGoToOrdersView" Content="**Go to Orders View**" HorizontalAlignment="Center" Margin="0" Grid.Row="2" VerticalAlignment="Center" Width="235" Click="buttonGoToOrdersView_Click" FontSize="18.667"/>
         <Button x:Name="buttonSubmitOrder" Content="**Submit Order**" Grid.Column="1" HorizontalAlignment="Center" Margin="0" Grid.Row="2" VerticalAlignment="Center" FontSize="18.667" Click="buttonSubmitOrder_Click"/>
     </Grid>

@@ -22,8 +22,8 @@
             <ColumnDefinition Width="0.25*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="1" Grid.Column="1" Text="Special Requests:" FontSize="24" />
-        <TextBlock Grid.Row="1" Grid.Column="2" Text="Order Items:" FontSize="24"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Special Requests:" />
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Order Items:"/>
         
         <ListView x:Name="listViewOrderItems" Grid.Column="2" HorizontalAlignment="Left" Height="461" Grid.Row="2" VerticalAlignment="Top" Width="246" Grid.RowSpan="2" Background="#FF5D47C1"/>
         <ListView x:Name="listViewOther" HorizontalAlignment="Left" Height="538" Grid.Row="1" VerticalAlignment="Top" Width="512" Grid.RowSpan="3"
