@@ -1,1 +1,0 @@
-C:\Users\Dmitri\Desktop\Documents\GitHub\edX\Microsoft DEV206.1x Introduction to XAML and Application Development\RestaurantManager\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
